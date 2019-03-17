@@ -1,0 +1,29 @@
+#parent
+{
+    height: 300px;
+    width:  300px;
+    background-color: red;
+    padding-right: 30px;
+    padding-left: 50px; /*will also push the children to the right*/
+  
+
+  }
+  
+  #child1
+{
+    height: 100px;
+    width:  100px;
+    background-color: blue;
+    margin-top: 50px; /*will also push the parent down 50px*/ 
+  
+
+  }
+
+  #child2
+  {
+      height: 100px;
+      width:  100px;
+      background-color: green;
+      margin-top: 50px; /*will push the child2 div down from the child1 div*/
+  
+    }

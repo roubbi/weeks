@@ -1,0 +1,80 @@
+#parent
+{
+    height: 250px;
+    width:  400px;
+    background-color: #6d60df;
+    position: relative;
+    border-radius:2%;
+
+    
+
+}
+
+.money{
+margin-left: 10px; 
+margin-top: 10px; 
+font-weight:bold;
+}
+
+.time{
+position: absolute;
+right:0;
+margin-top: 10px;
+margin-right: 10px;
+bottom: 0;
+font-weight:600;
+}
+
+.bar{
+
+  width: 30px;
+  background-color: #B1BEC2;
+  position: absolute;
+  left:10;
+  bottom: 0;
+
+}
+
+
+#child1
+{
+    height: 30px;
+    margin-left: 10px;
+ 
+}
+
+#child2
+{
+    height: 120px;
+    margin-left: 60px;
+    
+}
+
+#child3
+{
+    height: 200px;
+    margin-left: 110px;
+    
+}
+
+#child4
+{
+    height: 180px;
+    margin-left: 160px;
+    
+}
+
+
+#child5
+{
+    height: 140px;
+    margin-left: 210px;
+    
+}
+
+#child6
+{
+    height: 80px;
+    margin-left: 260px;
+    
+}

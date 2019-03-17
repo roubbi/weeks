@@ -1,0 +1,25 @@
+#parent
+{
+    height: 500px;
+    width:  400px;
+    background-color: #0000FF;
+    position: relative;   
+}
+
+#child1
+{
+    height: 500px;
+    width: 30px;
+    background-color: #FA1100;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#child2
+{
+  height: 30px;
+  width: 400px;
+  background-color: #FA1100;
+  position: absolute;
+  margin-top: 100px;  
+}

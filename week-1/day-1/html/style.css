@@ -1,0 +1,22 @@
+img
+{
+    height: 150px;
+    width: 200px;
+}
+
+.txt
+{
+    margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.info
+{
+    display: block;
+}
+
+.space
+{
+    margin-top: 50px;
+  margin-bottom: 50px;
+}

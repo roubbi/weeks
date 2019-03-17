@@ -1,0 +1,34 @@
+#parent
+{
+  height: 300px;
+  width:  300px;
+    background-color: red;
+    
+}
+
+  
+  #child1
+{
+    height: 100px;
+    width:  100px;
+    background-color: blue;
+    position: relative;
+    top:200px;
+    left:200px;
+
+    /*Notice that this time the parent and the second child were not affected at all 
+    - only the first child was moved according to the specific instructions we gave it.
+Now that's power
+Effectively, what is happening is that relative says to the element: "act as you should act, given your frame of reference (the parent) and the commands you've been given (top, left, etc)". Really "relative" means relative to itself*/
+  
+
+  }
+
+  #child2
+  {
+      height: 100px;
+      width:  100px;
+      background-color: green;
+
+  
+    }

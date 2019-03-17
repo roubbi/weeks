@@ -1,0 +1,46 @@
+#parent
+{
+    
+    background-color: red;
+    
+/* NO Width
+   NO Width
+
+Woops. If you remember the distinction between block and inline elements - 
+what's happening should be clear.
+The parent element is a div, which is a block element, and so takes up the entire width 
+of the page by default. Since we didn't specify any width, it took up 100% of the width.*/
+  
+display: inline-block; 
+/*And now! It's gone o_o
+  But that's only because inline elements take up only as much space as they need, which in this case the exactly the dimensions of its children.*/
+
+padding: 10px;
+
+/*And voila! Now you have your dynamic parent that resizes according to the content inside.
+Modify the children's padding, width, height (and margin, to an extent) - see what happens - no more overflowing content!
+
+However, sometimes we do want to limit the parent's dimension - at least its width, because we want it to share the space with other elements. Here's where we start talking about relative and absolute positioning*/
+
+}
+
+
+  
+  #child1
+{
+    height: 100px;
+    width:  100px;
+    background-color: blue;
+
+  
+
+  }
+
+  #child2
+  {
+      height: 100px;
+      width:  300px;
+      background-color: green;
+
+  
+    }

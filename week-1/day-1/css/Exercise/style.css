@@ -1,0 +1,39 @@
+#container
+{
+  height: 138px;
+  width: 178px;
+  background-color: #BDC3C6;
+  text-align: left;
+  box-shadow: 3px 3px;
+  margin-bottom: -10px;
+  font-size: 16px;
+}
+
+.button
+{
+  background-color: #30CB71;
+  height: 28px;
+  width: 43px; 
+  border-color:rgb(0, 189, 79);
+  border-width: 2px;
+  font-size: 14px;
+}
+
+.box
+{
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  display: inline-block;
+}
+#first
+{
+  background-color: #2BBC9B;;
+}
+
+#second
+{
+  background-color: #E67E21;
+}

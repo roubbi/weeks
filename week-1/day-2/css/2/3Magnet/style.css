@@ -1,0 +1,64 @@
+
+#parent{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    border-radius:2%
+    }
+
+.whiteSquare{
+width: 155px;
+height: 155px;
+background-color: white;
+position: absolute;
+border-radius:2%;
+margin-top:0px;
+margin-left:125px;
+        }
+
+
+#redRectangle{
+width: 70px;
+height: 150px;
+background-color: red;
+position: absolute;
+border-top-left-radius:2%;
+}
+
+.rightBar
+{
+margin-left: 60px;
+}
+
+.leftBar
+{
+margin-left: 280px; 
+}
+
+.bottomBar
+{
+margin-top: 145px; 
+width: 290px;
+height: 70px;
+position: absolute;
+bottom: O;
+background-color: red;
+margin-left: 60px;
+border-radius: 5%;
+}
+
+#greySquare{
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    position: absolute;
+    }
+ 
+.greySquareLeft{
+margin-left: 60px;
+}
+
+.greySquareRight{
+margin-left: 280px;
+}
