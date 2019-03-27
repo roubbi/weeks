@@ -1,0 +1,44 @@
+
+/* #container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+} */
+
+/* We can simplify the writting */
+
+#container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas: 
+  "h h h h h h"
+  "s m m m m m"
+  "s m m m m m"
+  "s m m m m m"
+  "s f f f f f"
+  ;
+  /* grid-gap: 10px; */
+}
+
+.head{
+  grid-area: h;
+  background-color:orange;
+}
+
+.side-nav{
+  grid-area: s;
+  background-color:red;
+}
+
+.main{
+  grid-area: m;
+  background-color:cyan;
+}
+
+.foot{
+  grid-area: f;
+  background-color:white;
+}

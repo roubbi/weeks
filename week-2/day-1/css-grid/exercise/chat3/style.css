@@ -1,0 +1,110 @@
+.body{
+
+margin: 0;
+}
+
+#chat{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 15fr 1fr;
+  grid-template-areas: 
+  "f c"
+  "f i";
+}
+
+#friends{
+  grid-area: f;
+  background-color: blueviolet;
+}
+
+.friends-name{
+  grid-area: fn;
+  display: grid;
+  background-color: rgb(177, 94, 255);
+  grid-template-rows: repeat(1, 3fr);
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+#chatbox{
+  grid-area: c;
+  display: grid;
+  background-color: rgb(213, 210, 210);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 5fr;
+  grid-template-areas: 
+  "l . r";
+  width: 100%
+}
+
+.chatbox-left-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  height: 6vh;
+  justify-content: start;
+  grid-gap: 100px;
+  grid-area: l;
+  
+}
+
+.chatbox-right-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  height: 6vh;
+  justify-content: end;
+  background-color: green;
+  grid-gap: 50px;
+  grid-area: r;
+  
+}
+
+.message-text-l{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color:rgb(131, 127, 127);
+
+}
+
+.message-text-left{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 15px;
+}
+
+.text{
+  display: grid;
+  grid-area: te;
+  margin-left: 0px;
+  font-size: 22px;
+  justify-content: start;
+  align-content: start;
+  margin: 0;
+}
+
+.message-text-left-time{
+  display: grid;
+  font-size: 15px;
+  justify-content: end;
+  align-content: end;
+  
+  margin: 0;
+
+}
+
+#input{
+  grid-area: i;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: 1px solid;
+}
+
+#button{
+  display: grid;
+  background-color: blueviolet;
+  align-content: center;
+  justify-content: center;
+color: white
+}

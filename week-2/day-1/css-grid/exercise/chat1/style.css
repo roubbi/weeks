@@ -1,0 +1,80 @@
+
+
+#main-container{
+  height: 90vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "f c c c "
+  "f c c c "
+  "f c c c "
+  "f c c c ";
+
+}
+
+.friend-list{
+  display: grid;
+  grid-gap: 10px;
+  grid-area: f;
+  background-color: blueviolet;
+}
+
+.friend-name{
+ display:grid;
+  background-color: #9E5BB0;
+  padding: 
+}
+
+.container2{
+  grid-area: c;
+  background-color: #ECF0F1;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: 
+  " mf bb bb mm "
+  " mf bb bb mm "
+  " mf bb bb mm "
+  " mf bb bb mm ";
+
+}
+
+
+.friend-messages{
+  grid-area: mf;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.friend-message{
+  grid-area: fn;
+  background-color:grey;
+  
+}
+
+.blank-space{
+  grid-area: bb;
+}
+
+.my-messages{
+  grid-area: mm;
+}
+
+.my-message{
+  background-color: green;
+}
+
+
+#type-container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 
+}
+
+.search-btn{
+  background-color: blueviolet;
+  color: white;
+}
+
+
