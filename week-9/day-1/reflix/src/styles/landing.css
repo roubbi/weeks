@@ -1,0 +1,71 @@
+#Landing-container{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(1, 1fr);
+align-content: center;
+justify-content: center;
+min-height: 60vh;
+}
+
+#home-title{
+margin-top: 30px;
+}
+
+.userBox{
+display: grid;
+height: 200px;
+width: 250px;
+border-radius:10px;
+font-size: 20px;
+font-weight: bold; 
+align-content: center;
+justify-content: center;
+align-self: center;
+justify-items: center;
+}
+
+.users-boxes{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+align-self: center;
+justify-items: center;
+align-items: center;
+}
+
+#red-box{
+    background-color: rgb(215, 27, 27);
+}
+
+#cyan-box{
+    background-color: rgb(13, 228, 228);
+}
+
+#green-box{
+    background-color: rgb(81, 194, 24);
+}
+
+#yellow-box{
+    background-color: rgb(220, 220, 9);
+}
+
+@media screen and (max-width: 992px) {
+    .users-boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-self: center;
+        justify-items: center;
+        }
+        .userBox{
+            display: grid;
+            height: 200px;
+            width: 250px;
+            border-radius:10px;
+            font-size: 20px;
+            font-weight: bold; 
+            align-content: center;
+            justify-content: center;
+            align-self: center;
+            justify-items: center;
+            margin-bottom:10px;
+            }
+    }

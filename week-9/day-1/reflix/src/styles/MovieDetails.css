@@ -1,0 +1,35 @@
+.movie{
+    /* min-height: 100vh; */
+    padding-bottom: 20px; 
+}
+
+.movie-image-MD{
+    height: 400px;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+
+@media screen and (max-width: 992px) {
+    .movie-image-MD{
+        height: 400px;
+        width: 300px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+     }
+
+    .movie-descr{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .movie-title{
+    font-size: 30px;
+    }  
+}
+

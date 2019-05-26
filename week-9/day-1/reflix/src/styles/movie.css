@@ -1,0 +1,49 @@
+#Catalog-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.centered{
+align-self: center;
+justify-self: center;
+}
+
+.right{
+    align-self: right;
+    justify-self: right;
+    }
+
+h1,h2,h3,h4, div{
+    color: white
+}
+
+.rent-button{
+    align-self: right;
+    justify-self: right;
+    color:white;
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    }
+
+    .rent-button:hover {
+        background-color: white; /* Green */
+        color: black;
+      }
+
+      @media screen and (max-width: 992px) {
+        .rent-button{
+            align-self: right;
+            justify-self: right;
+            color:white;
+            background-color: transparent;
+            height: 40px;
+            width: 150px;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            }
+        }
+

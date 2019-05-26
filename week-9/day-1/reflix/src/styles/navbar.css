@@ -1,0 +1,40 @@
+#Navbar-container {
+display: grid;
+grid-template-columns: 0.4fr 0.4fr 4fr ;
+margin-right: 5px;
+}
+
+.link{
+align-self: center;
+justify-self: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+/* A link that has been visited */
+a:visited {
+  color: white;
+}
+
+/* A link that is hovered on */
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#logo{
+display: grid;
+height: 50px;
+width: 100px;
+justify-self: right;
+}
+
+@media screen and (max-width: 992px) {
+  
+  #Navbar-container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 1fr ;
+    }
+  }
